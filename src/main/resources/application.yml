@@ -1,0 +1,21 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/adminArg?useSSL=false&createDatabaseIfNotExist=true&allowPublicKeyRetrieval=true
+    username: root
+    password:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    open-in-view: false
+  servlet:
+    multipart:
+      max-file-size: 1MB
+      max-request-size: 10MB
+
+
+
+      #url: jdbc:mysql://localhost:3306/javafood?useSSL=false&createDatabaseIfNotExist=true&allowPublicKeyRetrieval=true
+    #username: root
+    #password:
+
+#      driver-class-name: org.postgresql.Driver
